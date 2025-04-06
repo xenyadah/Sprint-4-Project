@@ -5,7 +5,7 @@ This app uses a dataset of car listings to create an app that shows you the pric
 ## Key Feature
 Visualization of data through graphs
 
-## File
+## Files
 - `app.py`: Main streamlit app
 - `vehicles_us.csv`
 - `notebook/EDA.ipynb`
