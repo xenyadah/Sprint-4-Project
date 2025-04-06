@@ -6,13 +6,13 @@ This app uses a dataset of car listings to create an app that shows you the pric
 Visualization of data through graphs
 
 ## File
-- 'app.py': Main streamlit app
-- 'vehicles_us.csv'
-- 'notebook/EDA.ipynb'
+- `app.py`: Main streamlit app
+- `vehicles_us.csv`
+- `notebook/EDA.ipynb`
 
 ## How to Open
-1) Install the libraries in 'requirements.txt'
+1) Install the libraries in `requirements.txt`
 2) Enter your local terminal
-3) streamlit run app.py
+3) streamlit run `app.py`
 
 https://sprint-4-project-ous2.onrender.com
