@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import numpy as np
 
 vehicles = pd.read_csv('vehicles_us.csv')
 vehicles['manufacturer'] = vehicles['model'].apply(lambda x:x.split()[0])
@@ -16,7 +17,7 @@ fig = px.histogram(vehicles, x='manufacturer', color='type')
 # display the figure with streamlit
 st.write(fig)
 
-st.header('Histogram of `condition` vs `price`')
+st.header('Condition vs Price')
 fig = px.histogram(vehicles, x='price', color='condition')
 st.write(fig)
 
